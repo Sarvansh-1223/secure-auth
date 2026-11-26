@@ -1,0 +1,8 @@
+Django>=5.1,<5.3
+djangorestframework>=3.15
+django-cors-headers>=4.4
+django-environ>=0.11
+webauthn>=2.5,<4        # py_webauthn (Duo Labs) - WebAuthn server-side verification
+phonenumbers>=8.13      # international phone parsing / E.164 normalisation
+user-agents>=2.2        # device / browser parsing
+mysqlclient>=2.2        # MySQL driver (needs libmysqlclient-dev / mysql-connector headers)
